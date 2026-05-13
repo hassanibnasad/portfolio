@@ -3,115 +3,773 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Mohd Hassan | Data Science Portfolio</title>
+  <meta
+    name="description"
+    content="Mohd Hassan builds practical products across GenAI, automation, data science, machine learning, and analytics."
+  />
+  <title>Mohd Hassan | GenAI, Automation & Data Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;800&family=Space+Grotesk:wght@400;500;700&display=swap"
+    rel="stylesheet"
+  />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header>
-    <nav>
-      <h1>Mohd Hassan</h1>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li><a href="#resume">Resume</a></li>
-      </ul>
-    </nav>
-  </header>
+  <div class="page-shell">
+    <div class="bg-grid" aria-hidden="true"></div>
+    <div class="bg-orb orb-one" aria-hidden="true"></div>
+    <div class="bg-orb orb-two" aria-hidden="true"></div>
 
-  <section id="hero">
-    <h2>Data Science Enthusiast | ML Developer</h2>
-    <p>Building intelligent ML applications that solve real-world problems.</p>
-  </section>
- 
-  
-  <!-- About Me section -->
-  <section id="about">
-    <h2>About Me</h2>
-    <p>
-      I'm Mohd Hassan, a data science enthusiast and final-year BCA student at CSJMU. With a strong foundation in Python, Machine Learning, NLP, and Deep Learning, I’ve built end-to-end applications that solve real-world problems in healthcare, agriculture, and recommendation systems.<br><br>
-      I believe in building intelligent systems that not only make predictions, but deliver insight. From cleaning data to deploying full-stack ML applications, I enjoy every step of the data science pipeline. I'm actively seeking internships where I can apply my skills in impactful projects and grow with a team of forward-thinking engineers.
-    </p>
-  </section>
+    <header class="site-header">
+      <nav class="nav">
+        <a class="brand" href="#top" aria-label="Mohd Hassan home">
+          <span class="brand-mark">MH</span>
+          <span class="brand-copy">
+            <strong>Mohd Hassan</strong>
+            <span>GenAI, Automation & Data</span>
+          </span>
+        </a>
 
-  
-  <!-- Skills section -->
-  <section id="skills">
-    <h2>Skills</h2>
-    <div class="skills-list">
-      <h3>Languages</h3>
-      <p>Python, C++, SQL</p>
-      <h3>Libraries</h3>
-      <p>Pandas, NumPy,Matplotlib, Seaborn, Scikit-Learn, TensorFlow, Keras, Spacy, NLTK, LangChain</p>
-      <h3>Tools</h3>
-      <p>Streamlit, Jupyter Notebook, VS Code, PyCharm, Git & GitHub</p>
-      <h3>Concepts</h3>
-      <p>Exploratiry Data Analysis, Machine Learning, Deep Learning, NLP, LLMs</p>
+        <div class="nav-links">
+          <a href="#about">About</a>
+          <a href="#experience">Experience</a>
+          <a href="#projects">Projects</a>
+          <a href="#stack">Stack</a>
+          <a href="#focus">Focus</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero section">
+        <div class="hero-copy" data-reveal>
+          <p class="hero-name">Mohd Hassan</p>
+          <p class="eyebrow">GenAI | Automation | Data Science | Machine Learning</p>
+          <h1>I build practical digital products across GenAI, automation, and data.</h1>
+          <p class="hero-text">
+            I am a final-year BCA student who enjoys solving problems in different
+            ways: AI assistants, reporting automation, predictive models, support
+            systems, and user-facing web apps. I keep the portfolio intentionally
+            broad so it reflects how I like to work: adaptable, curious, and focused
+            on building useful systems.
+          </p>
+
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">View All Projects</a>
+            <a class="button button-secondary" href="https://github.com/hassanibnasad?tab=repositories" target="_blank" rel="noreferrer">GitHub Repositories</a>
+            <a class="button button-secondary" href="resume/MOHD_HASSAN_RESUME.pdf" target="_blank" rel="noreferrer">View Resume</a>
+          </div>
+
+          <div class="hero-meta">
+            <div>
+              <span class="meta-label">Working Across</span>
+              <strong>GenAI apps, automation workflows, data products, and ML systems</strong>
+            </div>
+            <div>
+              <span class="meta-label">Portfolio Goal</span>
+              <strong>Stay flexible for AI, analytics, automation, and software roles</strong>
+            </div>
+          </div>
+
+          <div class="hero-signal-bar" data-reveal>
+            <span>Adaptive builder</span>
+            <span>Deployment minded</span>
+            <span>Generalist portfolio</span>
+          </div>
+        </div>
+
+        <aside class="hero-panel" data-reveal>
+          <div class="panel hero-visual photo-missing" data-photo-card>
+            <div class="hero-portrait-frame">
+              <img
+                class="hero-photo"
+                src="assets/profile-photo.png"
+                alt="Portrait of Mohd Hassan"
+                loading="eager"
+                decoding="async"
+              />
+              <div class="hero-photo-fallback" aria-hidden="true">
+                <div class="hero-orbit">
+                  <div class="orbit-ring orbit-ring-one"></div>
+                  <div class="orbit-ring orbit-ring-two"></div>
+                  <div class="orbit-ring orbit-ring-three"></div>
+                  <div class="orbit-core">
+                    <span>MH</span>
+                  </div>
+                </div>
+                <div class="hero-photo-hint">
+                  <strong>Photo not added yet</strong>
+                  <span>Place your image at `assets/profile-photo.png`</span>
+                </div>
+              </div>
+            </div>
+            <div class="orbit-chip chip-one">GenAI</div>
+            <div class="orbit-chip chip-two">Automation</div>
+            <div class="orbit-chip chip-three">Data</div>
+          </div>
+
+          <div class="panel panel-status">
+            <span class="panel-tag">Live Signal</span>
+            <h2>Generalist by design, product-minded by habit.</h2>
+            <p>
+              I like working across the full arc of a problem, from data and logic to
+              interface and deployment. That is why my work spans GenAI tools,
+              automation systems, analytics workflows, and predictive applications.
+            </p>
+          </div>
+
+          <div class="stats-grid">
+            <article class="stat-card">
+              <span>08</span>
+              <p>Public project and learning repositories included in this portfolio</p>
+            </article>
+            <article class="stat-card">
+              <span>04</span>
+              <p>Core lanes: GenAI, automation, data science, and ML application work</p>
+            </article>
+            <article class="stat-card">
+              <span>04</span>
+              <p>Public live demos across healthcare, agriculture, real estate, and media</p>
+            </article>
+            <article class="stat-card">
+              <span>E2E</span>
+              <p>Approach centered on full workflows: model, logic, interface, and deployment</p>
+            </article>
+          </div>
+        </aside>
+      </section>
+
+      <section class="section intro-strip" id="about" data-reveal>
+        <div class="intro-copy">
+          <p class="eyebrow">About Me</p>
+          <h2>Generalist builder across GenAI, automation, and data science.</h2>
+          <p class="section-copy">
+            I enjoy building practical systems, not just isolated experiments. My work
+            usually sits at the intersection of data, backend logic, interface design,
+            and deployment, which is why this portfolio spans AI applications,
+            reporting automation, predictive models, and product-facing tools.
+          </p>
+        </div>
+
+        <div class="intro-highlights">
+          <article class="intro-card">
+            <span>What I like building</span>
+            <p>LLM-powered tools, workflow automation, recommendation systems, analytics products, and applied ML apps.</p>
+          </article>
+          <article class="intro-card">
+            <span>How I work</span>
+            <p>I like taking projects from idea to usable output: data, logic, interface, and deployment in one flow.</p>
+          </article>
+          <article class="intro-card">
+            <span>Why this portfolio is broad</span>
+            <p>I want it to support GenAI, automation, data, analytics, and software-focused applications without rewriting it every time.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section experience-section" id="experience">
+        <div class="section-heading" data-reveal>
+          <p class="eyebrow">Professional Experience</p>
+          <h2>Hands-on product work in a live fintech environment</h2>
+          <p class="section-copy">
+            Alongside personal projects, I am also contributing to production-facing
+            AI systems, backend workflows, and customer support experiences in fintech.
+          </p>
+        </div>
+
+        <div class="experience-layout">
+          <article class="panel experience-summary" data-reveal>
+            <span class="panel-tag">Current Role</span>
+            <h3>Software Developer Intern</h3>
+            <p class="experience-company">Finsmart Software Pvt. Ltd.</p>
+
+            <div class="experience-timeline" aria-label="Internship timeline">
+              <span>Jan 2026 - Present</span>
+              <span>Fintech AI Systems</span>
+            </div>
+
+            <p>
+              Working on practical AI integrations that connect retrieval, backend
+              logic, and user-facing support flows inside a live product setting.
+            </p>
+
+            <div class="experience-metrics">
+              <div>
+                <strong>RAG</strong>
+                <span>architecture and retrieval flow design</span>
+              </div>
+              <div>
+                <strong>Backend</strong>
+                <span>development for product-grade AI features</span>
+              </div>
+              <div>
+                <strong>Live Deploy</strong>
+                <span>customer support chatbot shipped to production</span>
+              </div>
+            </div>
+          </article>
+
+          <div class="experience-rail">
+            <article class="experience-detail" data-reveal>
+              <span class="experience-step">01</span>
+              <h3>AI Integration</h3>
+              <p>
+                Spearheaded backend development and RAG architecture for the
+                Finsmart Ledger product and a live intelligent customer support
+                chatbot.
+              </p>
+            </article>
+
+            <article class="experience-detail" data-reveal>
+              <span class="experience-step">02</span>
+              <h3>Impact</h3>
+              <p>
+                Collaborated with senior engineers to deploy the AI chatbot into a
+                live fintech platform, drastically streamlining user engagement.
+              </p>
+            </article>
+
+            <article class="experience-note" data-reveal>
+              <span class="panel-tag">Why It Matters</span>
+              <p>
+                This experience shows I can contribute beyond portfolio demos by
+                helping shape AI systems that are built, reviewed, and used in a real
+                business environment.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="projects">
+        <div class="section-heading" data-reveal>
+          <p class="eyebrow">Projects & Repositories</p>
+          <h2>All public work in one place</h2>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card featured" data-reveal>
+            <div class="project-thumb thumb-lab">
+              <div class="thumb-overlay">
+                <span class="thumb-label">Healthcare GenAI</span>
+                <strong>OCR + LLM explanation pipeline</strong>
+              </div>
+            </div>
+            <div class="card-topline">
+              <span class="project-index">01</span>
+              <span class="project-type">GenAI + Healthcare</span>
+            </div>
+            <h3>Lab Report Explainer</h3>
+            <p>
+              AI-powered lab report explainer using OCR, LangChain, and an LLM pipeline
+              to convert technical medical reports into simple explanations in English,
+              Hindi, and Urdu.
+            </p>
+            <ul class="tag-list" aria-label="Lab Report Explainer stack">
+              <li>Python</li>
+              <li>Streamlit</li>
+              <li>LangChain</li>
+              <li>EasyOCR</li>
+              <li>PDFPlumber</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://github.com/hassanibnasad/report-explainer" target="_blank" rel="noreferrer">GitHub</a>
+              <a href="https://report-explainer-jv5sms6btbnf6nrmyxwmne.streamlit.app/" target="_blank" rel="noreferrer">Live Demo</a>
+            </div>
+          </article>
+
+          <article class="project-card" data-reveal>
+            <div class="project-thumb thumb-support">
+              <div class="thumb-overlay">
+                <span class="thumb-label">AI Support</span>
+                <strong>Triaged ticket intelligence</strong>
+              </div>
+            </div>
+            <div class="card-topline">
+              <span class="project-index">02</span>
+              <span class="project-type">Support + GenAI</span>
+            </div>
+            <h3>Customer Support & Ticketing System</h3>
+            <p>
+              Intelligent support platform with a 3-tier classification flow using
+              regex, machine learning, and LLM fallback, plus routing, priority
+              detection, and an agent feedback loop.
+            </p>
+            <ul class="tag-list" aria-label="Customer Support and Ticketing System stack">
+              <li>Python</li>
+              <li>Flask</li>
+              <li>Scikit-learn</li>
+              <li>Gemini</li>
+              <li>SQLite</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://github.com/hassanibnasad/customer_support_and_ticketing_system" target="_blank" rel="noreferrer">GitHub</a>
+            </div>
+          </article>
+
+          <article class="project-card" data-reveal>
+            <div class="project-thumb thumb-ops">
+              <div class="thumb-overlay">
+                <span class="thumb-label">Ops Automation</span>
+                <strong>Metrics, alerts, reporting</strong>
+              </div>
+            </div>
+            <div class="card-topline">
+              <span class="project-index">03</span>
+              <span class="project-type">Automation + Analytics</span>
+            </div>
+            <h3>Business Operations Reporting System</h3>
+            <p>
+              Automation-focused reporting workflow for operational metrics, payment
+              failure analysis, anomaly detection, and multi-sheet Excel reports for
+              business monitoring.
+            </p>
+            <ul class="tag-list" aria-label="Business Operations Reporting System stack">
+              <li>Python</li>
+              <li>SQL</li>
+              <li>Pandas</li>
+              <li>SQLite</li>
+              <li>OpenPyXL</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://github.com/hassanibnasad/Automated_Business_Operations_Reporting_System" target="_blank" rel="noreferrer">GitHub</a>
+            </div>
+          </article>
+
+          <article class="project-card" data-reveal>
+            <div class="project-thumb thumb-faq">
+              <div class="thumb-overlay">
+                <span class="thumb-label">FAQ Search</span>
+                <strong>Smart support widget flow</strong>
+              </div>
+            </div>
+            <div class="card-topline">
+              <span class="project-index">04</span>
+              <span class="project-type">Support Automation</span>
+            </div>
+            <h3>FAQCanvas</h3>
+            <p>
+              Lightweight FAQ support widget where admins manage saved question-answer
+              pairs and the system retrieves the closest match for customer questions
+              using Flask and SQLite.
+            </p>
+            <ul class="tag-list" aria-label="FAQCanvas stack">
+              <li>Flask</li>
+              <li>SQLite</li>
+              <li>Tailwind CSS</li>
+              <li>JavaScript</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://github.com/hassanibnasad/faqcanvas" target="_blank" rel="noreferrer">GitHub</a>
+            </div>
+          </article>
+
+          <article class="project-card" data-reveal>
+            <div class="project-thumb thumb-agri">
+              <div class="thumb-overlay">
+                <span class="thumb-label">Computer Vision</span>
+                <strong>Leaf diagnosis interface</strong>
+              </div>
+            </div>
+            <div class="card-topline">
+              <span class="project-index">05</span>
+              <span class="project-type">Computer Vision</span>
+            </div>
+            <h3>Tomato Disease Detection</h3>
+            <p>
+              CNN and transfer learning system for classifying tomato leaf diseases
+              from images, designed as an accessible web app for agricultural use.
+            </p>
+            <ul class="tag-list" aria-label="Tomato Disease Detection stack">
+              <li>TensorFlow</li>
+              <li>Keras</li>
+              <li>OpenCV</li>
+              <li>Streamlit</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://github.com/hassanibnasad/Tomato-Disease-Detection" target="_blank" rel="noreferrer">GitHub</a>
+              <a href="https://tomato-disease-detection-2gdpyuxyzzeil4buqxmvfd.streamlit.app/" target="_blank" rel="noreferrer">Live Demo</a>
+            </div>
+          </article>
+
+          <article class="project-card" data-reveal>
+            <div class="project-thumb thumb-realestate">
+              <div class="thumb-overlay">
+                <span class="thumb-label">Predictive Model</span>
+                <strong>Pricing signals and UI</strong>
+              </div>
+            </div>
+            <div class="card-topline">
+              <span class="project-index">06</span>
+              <span class="project-type">Predictive Analytics</span>
+            </div>
+            <h3>Bangalore Home Price Predictor</h3>
+            <p>
+              End-to-end price prediction app for Bangalore real estate with data
+              cleaning, feature engineering, model training, API integration, and a
+              deployable Flask frontend.
+            </p>
+            <ul class="tag-list" aria-label="Bangalore Home Price Predictor stack">
+              <li>Python</li>
+              <li>Scikit-learn</li>
+              <li>Flask</li>
+              <li>Render</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://github.com/hassanibnasad/Bengalore_home_price" target="_blank" rel="noreferrer">GitHub</a>
+              <a href="https://bengalore-home-price.onrender.com/" target="_blank" rel="noreferrer">Live Demo</a>
+            </div>
+          </article>
+
+          <article class="project-card" data-reveal>
+            <div class="project-thumb thumb-movie">
+              <div class="thumb-overlay">
+                <span class="thumb-label">Recommendations</span>
+                <strong>Hybrid scoring engine</strong>
+              </div>
+            </div>
+            <div class="card-topline">
+              <span class="project-index">07</span>
+              <span class="project-type">Recommendation Engine</span>
+            </div>
+            <h3>Hybrid Movie Recommender</h3>
+            <p>
+              Recommendation workflow combining TF-IDF, genre similarity, popularity,
+              and weighted rating logic for more flexible personalized suggestions.
+            </p>
+            <ul class="tag-list" aria-label="Hybrid Movie Recommender stack">
+              <li>Pandas</li>
+              <li>TF-IDF</li>
+              <li>Scikit-learn</li>
+              <li>Streamlit</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://github.com/hassanibnasad/Movie_Recommender" target="_blank" rel="noreferrer">GitHub</a>
+              <a href="https://movierecommender-fcjhwbacdxr2djthfrhkjf.streamlit.app/" target="_blank" rel="noreferrer">Live Demo</a>
+            </div>
+          </article>
+
+          <article class="project-card" data-reveal>
+            <div class="project-thumb thumb-learning">
+              <div class="thumb-overlay">
+                <span class="thumb-label">Learning Track</span>
+                <strong>Hands-on DS practice archive</strong>
+              </div>
+            </div>
+            <div class="card-topline">
+              <span class="project-index">08</span>
+              <span class="project-type">Learning Repository</span>
+            </div>
+            <h3>Beginner Data Science Projects</h3>
+            <p>
+              Curated beginner-friendly data science project collection that reflects
+              learning, experimentation, and practical hands-on work across core data
+              analysis workflows. This repository is a fork.
+            </p>
+            <ul class="tag-list" aria-label="Beginner Data Science Projects stack">
+              <li>Jupyter</li>
+              <li>Pandas</li>
+              <li>Scikit-learn</li>
+              <li>Learning</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://github.com/hassanibnasad/Beginner-Data-Science-Projects" target="_blank" rel="noreferrer">GitHub</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section dual-layout" id="stack">
+        <div class="section-heading" data-reveal>
+          <p class="eyebrow">Toolset</p>
+          <h2>Technology map for the kind of work I enjoy</h2>
+        </div>
+
+        <div class="stack-intro panel" data-reveal>
+          <p>
+            I do not want this section to read like a checklist of buzzwords. It is a
+            map of the environments I am comfortable building in, from LLM-assisted
+            workflows and predictive modeling to reporting automation, backend logic,
+            and product delivery.
+          </p>
+        </div>
+
+        <div class="stack-showcase">
+          <article class="panel stack-spotlight" data-reveal>
+            <div class="spotlight-header">
+              <span class="panel-tag">Build Pattern</span>
+              <h3>From idea to deployment</h3>
+            </div>
+            <p>
+              My strongest projects usually combine three things: useful data logic,
+              a clear interface, and deployment that makes the work accessible beyond
+              a notebook.
+            </p>
+
+            <div class="stack-metrics">
+              <div>
+                <span>GenAI</span>
+                <p>LLM apps, prompt pipelines, OCR-driven explanation flows</p>
+              </div>
+              <div>
+                <span>Automation</span>
+                <p>Reporting systems, support workflows, business process tooling</p>
+              </div>
+              <div>
+                <span>Data</span>
+                <p>Analysis, predictive models, recommendation logic, experimentation</p>
+              </div>
+            </div>
+          </article>
+
+          <div class="stack-layout">
+            <article class="panel tech-card" data-reveal>
+              <span class="tech-kicker">01</span>
+              <h3>GenAI & NLP</h3>
+              <p>Tools I use when the problem needs language understanding, explanation, or AI-assisted reasoning.</p>
+              <ul class="tech-pill-list">
+                <li>LangChain</li>
+                <li>spaCy</li>
+                <li>NLTK</li>
+                <li>Prompt Design</li>
+                <li>OCR Pipelines</li>
+                <li>Gemini / OpenRouter APIs</li>
+              </ul>
+            </article>
+
+            <article class="panel tech-card" data-reveal>
+              <span class="tech-kicker">02</span>
+              <h3>Data & Modeling</h3>
+              <p>My core analysis and machine learning toolkit for prediction, recommendation, and experimentation.</p>
+              <ul class="tech-pill-list">
+                <li>Python</li>
+                <li>Pandas</li>
+                <li>NumPy</li>
+                <li>Scikit-learn</li>
+                <li>TensorFlow</li>
+                <li>Keras</li>
+              </ul>
+            </article>
+
+            <article class="panel tech-card" data-reveal>
+              <span class="tech-kicker">03</span>
+              <h3>Automation & Backend</h3>
+              <p>What I rely on when the task is workflow automation, ticketing, reporting, or system logic.</p>
+              <ul class="tech-pill-list">
+                <li>Flask</li>
+                <li>SQL</li>
+                <li>SQLite</li>
+                <li>OpenPyXL</li>
+                <li>APIs</li>
+                <li>Business Logic Design</li>
+              </ul>
+            </article>
+
+            <article class="panel tech-card" data-reveal>
+              <span class="tech-kicker">04</span>
+              <h3>Interface & Delivery</h3>
+              <p>How I turn technical ideas into usable products that people can actually interact with and evaluate.</p>
+              <ul class="tech-pill-list">
+                <li>Streamlit</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Git / GitHub</li>
+                <li>Render / Streamlit Cloud</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+
+        <article class="panel role-panel" id="focus" data-reveal>
+          <div class="role-panel-copy">
+            <span class="panel-tag">Positioning</span>
+            <h3>How I want this portfolio to read</h3>
+            <p>
+              Broad enough for GenAI, analytics, automation, ML, and software-facing
+              opportunities, but still focused on one clear theme: building practical
+              systems that solve real problems.
+            </p>
+          </div>
+
+          <div class="role-grid">
+            <div>
+              <strong>Generalist</strong>
+              <p>Comfortable moving between data work, backend logic, and product UI.</p>
+            </div>
+            <div>
+              <strong>Applied</strong>
+              <p>Interested in deployable systems, not only experiments or notebooks.</p>
+            </div>
+            <div>
+              <strong>Adaptable</strong>
+              <p>Open to internships and cross-functional roles with a strong learning curve.</p>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section class="section contact-section" id="contact">
+        <div class="contact-card" data-reveal>
+          <p class="eyebrow">Contact Channel</p>
+          <h2>Let's build something useful.</h2>
+          <p>
+            I am open to internships, collaborations, and conversations around GenAI,
+            automation, data science, analytics workflows, and practical software
+            systems.
+          </p>
+
+          <div class="contact-links">
+            <a href="mailto:mohdhassanibnasad@gmail.com">mohdhassanibnasad@gmail.com</a>
+            <a href="https://github.com/hassanibnasad" target="_blank" rel="noreferrer">github.com/hassanibnasad</a>
+            <a href="https://www.linkedin.com/in/mohd-hassan-7334b91b4/" target="_blank" rel="noreferrer">linkedin.com/in/mohd-hassan-7334b91b4</a>
+            <a href="resume/MOHD_HASSAN_RESUME.pdf" target="_blank" rel="noreferrer">Resume PDF</a>
+            <a href="tel:+918545920556">+91 8545920556</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div class="faq-widget-shell" data-faq-widget>
+      <button
+        class="faq-widget-launch"
+        type="button"
+        aria-expanded="false"
+        aria-controls="faq-widget-panel"
+      >
+        <span class="faq-widget-launch-icon" aria-hidden="true">
+          <span class="faq-widget-launch-ring"></span>
+          <span class="faq-widget-launch-dot"></span>
+        </span>
+        <span class="faq-widget-launch-copy">
+          <strong>Ask Hassan</strong>
+          <span>Portfolio FAQ assistant</span>
+        </span>
+        <span class="faq-widget-launch-pill">Hosted Live</span>
+      </button>
+
+      <div class="faq-widget-panel" id="faq-widget-panel" hidden>
+        <button class="faq-widget-backdrop" type="button" aria-label="Close FAQ widget"></button>
+
+        <section class="faq-widget-frame" role="dialog" aria-modal="true" aria-label="FAQCanvas chat widget">
+          <div class="faq-widget-frame-accent" aria-hidden="true"></div>
+          <header class="faq-widget-header">
+            <div class="faq-widget-title-block">
+              <p>FAQCanvas</p>
+              <h2>Ask about my work</h2>
+              <div class="faq-widget-status">
+                <span class="faq-widget-status-dot" aria-hidden="true"></span>
+                <span>Live portfolio assistant</span>
+              </div>
+              <div class="faq-widget-inline-meta">
+                <span class="faq-widget-inline-note">
+                  <span class="faq-widget-deploy-dot" aria-hidden="true"></span>
+                  Embedded from my live deployment
+                </span>
+                <a
+                  class="faq-widget-open-link"
+                  href="https://hassanibnasad.pythonanywhere.com/widget?site_key=mohd-hassan-2"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Open full chat
+                </a>
+              </div>
+            </div>
+            <button class="faq-widget-close" type="button" aria-label="Close chat widget">Close</button>
+          </header>
+
+          <div class="faq-widget-body">
+            <div class="faq-widget-embed-shell">
+              <iframe
+                src="https://hassanibnasad.pythonanywhere.com/widget?site_key=mohd-hassan-2"
+                title="FAQCanvas widget"
+                loading="lazy"
+              ></iframe>
+            </div>
+          </div>
+        </section>
+      </div>
     </div>
-  </section>
-  
-  <!-- Project section -->
-  <section id="projects">
-    <h2>Projects</h2>
-    <div class="project">
-      <h3>🍅 Tomato Disease Detection</h3>
-      <p>A deep learning project using CNN and Transfer Learning to classify tomato leaf diseases from images. Built with TensorFlow and Streamlit.</p>
-      <a href="https://github.com/hassanibnasad/Tomato-Disease-Detection">GitHub</a> |
-      <a href="https://tomato-disease-detection-2gdpyuxyzzeil4buqxmvfd.streamlit.app/">Live Demo</a>
-    </div>
-    <div class="project">
-      <h3>🏠 Bangalore Home Price Predictor</h3>
-      <p>Predicts home prices in Bangalore using ML models and real estate data. Built with Flask.</p>
-      <a href="https://github.com/hassanibnasad/Bengalore_home_price">GitHub</a> |
-      <a href="https://bengalore-home-price.onrender.com/">Live Demo</a>
-    </div>
-    <div class="project">
-      <h3>🧠 Lab Report Explainer</h3>
-      <p>Analyzes medical lab reports and provides explanations in English, Hindi, and Urdu using LLMs.</p>
-      <a href="https://github.com/hassanibnasad/report-explainer">GitHub</a> |
-      <a href="https://report-explainer-jv5sms6btbnf6nrmyxwmne.streamlit.app/">Live Demo</a>
-    </div>
-    <div class="project">
-      <h3>🎬 Hybrid Movie Recommendation System</h3>
-      <p>Recommends movies using content filtering, genres, and IMDb-style rating models.</p>
-      <a href="https://github.com/hassanibnasad/Movie_Recommender">GitHub</a> |
-      <a href="https://movierecommender-fcjhwbacdxr2djthfrhkjf.streamlit.app/">Live Demo</a>
-    </div>
-  </section>
 
-  
-  <!-- Contact section -->
-  <section id="contact">
-    <h2>Contact Me</h2>
-    <p>Email: mohdhassanibnasad@gmail.com</p>
-    <p>LinkedIn: <a href="https://linkedin.com/in/mohd-hassan-7334b91b4">mohd-hassan-7334b91b4</a></p>
-    <p>GitHub: <a href="https://github.com/hassanibnasad">hassanibnasad</a></p>
-    <p>Phone: +91 8545920556</p>
-  </section>
-  
-  <!-- Resume section -->
-  <section id="resume">
-    <h2>Resume</h2>
-    <p>You can download my resume below:</p>
-    <a href="resume/Mohd_Hassan_Resume_new.pdf" download class="resume-btn">Download Resume</a>
-  </section>
+    <footer class="site-footer">
+      <p>&copy; <span id="year"></span> Mohd Hassan. Built for GitHub Pages.</p>
+    </footer>
+  </div>
 
+  <script>
+    const yearNode = document.getElementById("year");
+    if (yearNode) {
+      yearNode.textContent = new Date().getFullYear();
+    }
 
+    const revealItems = document.querySelectorAll("[data-reveal]");
+    const photoCard = document.querySelector("[data-photo-card]");
 
-<script src="https://hassanibnasad.pythonanywhere.com/embed.js" data-site-key="demo-store"></script>
-<!-- Dialogflow Chatbot 
-<script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
-<df-messenger
-  intent="WELCOME"
-  chat-title="Mohd_Hassan_Portfolio_Bot"
-  agent-id="1a5afa49-0a1a-415b-bfba-a73dbdd302f0"
-  language-code="en"
-></df-messenger>
--->
+    if (photoCard) {
+      const photo = photoCard.querySelector(".hero-photo");
 
-  <footer>
-    <p>&copy; 2025 Mohd Hassan. All rights reserved.</p>
-  </footer>
+      const syncPhotoState = () => {
+        const isReady = photo && photo.complete && photo.naturalWidth > 0;
+        photoCard.classList.toggle("photo-ready", isReady);
+        photoCard.classList.toggle("photo-missing", !isReady);
+      };
+
+      if (photo) {
+        photo.addEventListener("load", syncPhotoState);
+        photo.addEventListener("error", syncPhotoState);
+        syncPhotoState();
+      }
+    }
+
+    if ("IntersectionObserver" in window) {
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add("is-visible");
+              observer.unobserve(entry.target);
+            }
+          });
+        },
+        { threshold: 0.14 }
+      );
+
+      revealItems.forEach((item) => observer.observe(item));
+    } else {
+      revealItems.forEach((item) => item.classList.add("is-visible"));
+    }
+
+    const widgetShell = document.querySelector("[data-faq-widget]");
+    const widgetPanel = document.getElementById("faq-widget-panel");
+    const widgetLaunch = document.querySelector(".faq-widget-launch");
+    const widgetClose = document.querySelector(".faq-widget-close");
+    const widgetBackdrop = document.querySelector(".faq-widget-backdrop");
+
+    if (widgetShell && widgetPanel && widgetLaunch && widgetClose && widgetBackdrop) {
+      const setWidgetState = (isOpen) => {
+        widgetPanel.hidden = !isOpen;
+        widgetLaunch.setAttribute("aria-expanded", String(isOpen));
+        widgetShell.classList.toggle("is-open", isOpen);
+      };
+
+      widgetLaunch.addEventListener("click", () => {
+        const isOpen = widgetLaunch.getAttribute("aria-expanded") === "true";
+        setWidgetState(!isOpen);
+      });
+
+      widgetClose.addEventListener("click", () => setWidgetState(false));
+      widgetBackdrop.addEventListener("click", () => setWidgetState(false));
+
+      document.addEventListener("keydown", (event) => {
+        if (event.key === "Escape") {
+          setWidgetState(false);
+        }
+      });
+    }
+  </script>
 </body>
 </html>
